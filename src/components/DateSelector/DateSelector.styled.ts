@@ -84,7 +84,11 @@ export const DatePickerWrapper = styled.div`
     background-color: #5858e334;
   }
 
-  .react-datepicker__day--keyboard-selected {
+  .react-datepicker__day:hover {
+    background-color: #5858e334;
+  }
+
+  .react-datepicker__day--keyboard-selected.react-datepicker__day--030 {
     background-color: transparent;
   }
 
